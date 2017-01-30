@@ -1,5 +1,12 @@
 body {background-color: #F5A9E1;
+    background-image: url(images/pawpaw.jpg); 
 color: black;}
-h3 {color:aliceblue;}
+h3 {color:aliceblue; font-family: Georgia, "Times New Roman", serif;}
 #special {background-color: #D0A9F5;}
 span {color: blueviolet;}
+body { font-family: Verdana, Arial, sans-serif;}
+h2 {text-transform: uppercase; font-family: Georgia, "Times New Roman", serif;}
+footer {font-style: italic;
+font-size: .85em;}
+ul {list-style-type: circle; }
+#extra {font-weight: bold; font-size: .95em; text-decoration: none; }
