@@ -1,12 +1,26 @@
 body {background-color: #F5A9E1;
     background-image: url(images/pawpaw.jpg); 
 color: black;}
-h3 {color:aliceblue; font-family: Georgia, "Times New Roman", serif;}
+h3 {color:aliceblue; font-family: Georgia, "Times New Roman", serif;
+padding: 5px;
+    margin: 10px}
 #special {background-color: #D0A9F5;}
 span {color: blueviolet;}
-body { font-family: Verdana, Arial, sans-serif;}
+body { font-family: Verdana, Arial, sans-serif;
+margin-top: auto}
 h2 {text-transform: uppercase; font-family: Georgia, "Times New Roman", serif;}
 footer {font-style: italic;
-font-size: .85em;}
-ul {list-style-type: circle; }
+font-size: .85em;
+padding: 5px;
+    margin: 10px;
+float: left;
+margin-right: 5px;}
+ul {list-style-type: circle;
+padding: 5px;
+    margin: 10px}
 #extra {font-weight: bold; font-size: .95em; text-decoration: none; }
+header { position: fixed;
+width: 100%;
+    padding: 5px;
+    margin: 10px
+}
