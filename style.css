@@ -29,14 +29,40 @@ ul {list-style-type: circle;
     color: white}
 #extra {font-weight: bold; font-size: .95em; text-decoration: none; }
 header { position: fixed;
-        width: 100%;
+        width: 7%;
         padding: 5px;
-        margin: 10px}  
+        margin: 5px;
+background-color: white}  
 .doggies { background-image: url(images/doggies.jpg);
 background-repeat: no-repeat;
 background-size: 100% 100%;
 height: 300px;
 align-content: center}
+nav { text-decoration: none;
+display: block;
+font-size: .75em;
+color: black;
+list-style-type: none;
+}
+@media only screen and (max-width 64em) {
+    body{margin: 0;}
+    nav {float: none;
+    border-width: auto;
+    }
+    p {font-size: 90%}
+    @media only screen and (max-width: 37.5em) {
+    header {padding-top: 1em;}
+    main {padding-top: 0.1em;
+    padding-bottom:  0.1em;
+    padding-right: 1em;
+    font-size: 90%;}
+    h1 {font-size: 1.5em;
+}
+    nav {padding: 0;
+    display: block;}
+    mobile id { display: inline;}
+    deasktop id {display: inline;}
+}
 
 
 
